@@ -73,6 +73,10 @@ public class Media {
         return user_has_liked;
     }
 
+    public void setUser_has_liked(boolean user_has_liked) {
+        this.user_has_liked = user_has_liked;
+    }
+
     public String getId() {
         return id;
     }
