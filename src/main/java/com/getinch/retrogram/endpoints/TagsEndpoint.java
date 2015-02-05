@@ -23,8 +23,8 @@ public class TagsEndpoint extends BaseEndpoint {
         public RecentByTag getRecent(
             @Path("tag_name") String tagName,
             @Query("access_token") String accessToken,
-            @Query("min_id") String minId,
-            @Query("max_id") String maxId
+            @Query("min_tag_id") String minId,
+            @Query("max_tag_id") String maxId
         );
 
         @GET("/tags/search")
